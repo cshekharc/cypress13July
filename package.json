@@ -1,0 +1,19 @@
+{
+  "name": "cypress13july",
+  "version": "1.0.0",
+  "description": "Automation practice with cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cypress",
+    "js",
+    "automaiton"
+  ],
+  "author": "Velocity",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.16.0"
+  }
+}
