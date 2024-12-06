@@ -1,0 +1,6 @@
+{
+    "firstName" : "John",
+    "lastName" : "Doe",
+    "emailId" : "doe@example.com",
+    "comment" : "This comment is coming fom fixture"
+}

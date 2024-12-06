@@ -1,0 +1,15 @@
+1. npm install convert-excel-to-json
+2. create task in config file 
+    on('task',{
+        excelToJson(filePath){
+          const readFile = excelToJson({
+            source: fs.readFileSync(filePath) 
+          })
+          return readFile
+        }
+      })
+3. Add lines to import in config file 
+    const excelToJson = require('convert-excel-to-json')
+    const fs = require('fs')
+4. uses is cy.task('excelToJson', filePath).then((readData)=>{
+}) in test file

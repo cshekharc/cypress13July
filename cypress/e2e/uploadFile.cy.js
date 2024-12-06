@@ -5,7 +5,7 @@ describe("Alert handling", function () {
         cy.visit("https://www.webdriveruniversity.com/")
         cy.get('#file-upload').invoke('removeAttr', 'target').click()
 
-        cy.get('[name="filename"]').selectFile('cypress/fixtures/inter.7z')
+        cy.get('[name="filename"]').selectFile('cypress/fixtures/testDt.txt')
 
         cy.get('[type="submit"]').click()
 
